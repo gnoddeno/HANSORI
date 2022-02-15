@@ -53,7 +53,7 @@ export default class Main extends Component {
                       height: `${
                         window.innerHeight > window.innerWidth
                           ? "100vh"
-                          : "auto"
+                          : "100vh"
                       }`,
                       width: `${
                         window.innerHeight > window.innerWidth
@@ -86,7 +86,7 @@ export default class Main extends Component {
                         height: `${
                           window.innerHeight > window.innerWidth
                             ? "100vh"
-                            : "auto"
+                            : "100vh"
                         }`,
                         width: `${
                           window.innerHeight > window.innerWidth
