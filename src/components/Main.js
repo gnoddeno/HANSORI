@@ -32,7 +32,7 @@ export default class Main extends Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 5000,
       cssEase: "ease-in",
       nextArrow: <Arrow image={whiteArrow} next />,
@@ -52,13 +52,13 @@ export default class Main extends Component {
                     style={{
                       height: `${
                         window.innerHeight > window.innerWidth
-                          ? "100vh"
-                          : "100vh"
+                          ? "auto"
+                          : "auto"
                       }`,
                       width: `${
                         window.innerHeight > window.innerWidth
                           ? "auto"
-                          : "100vw"
+                          : "auto"
                       }`,
                     }}
                     alt=""
@@ -90,8 +90,8 @@ export default class Main extends Component {
                         }`,
                         width: `${
                           window.innerHeight > window.innerWidth
-                            ? "auto"
-                            : "100vw"
+                            ? "100vw"
+                            : "auto"
                         }`,
                       }}
                       alt=""
